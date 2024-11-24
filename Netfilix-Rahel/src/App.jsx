@@ -1,15 +1,14 @@
-import { useState } from 'react'
 
 import './App.css'
 
-function App() {
-  
+import Home from "./Page/Home/Home"
 
+function App() {
   return (
-    <>
-    <h1>Hello</h1>
-    </>
+    <div><Home/></div>
   )
 }
+
+
 
 export default App
